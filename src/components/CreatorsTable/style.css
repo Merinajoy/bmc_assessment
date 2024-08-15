@@ -1,0 +1,63 @@
+.users_table_container.MuiTableContainer-root {
+  box-shadow: none;
+  border: solid 1px #f2eeee;
+}
+
+.users_table .MuiTableRow-head .MuiTableCell-root {
+  color: #858585 !important;
+}
+
+.actions_container {
+  display: flex;
+  gap: 1rem;
+}
+
+.edit_button {
+  border: none;
+  border-radius: 16px;
+  padding: 6px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit_button:hover {
+  background-color: #5a5a5a;
+  color: white;
+}
+
+.delete_icon {
+  padding-top: 4px;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+
+.delete_icon:hover {
+  color: #8c8b8b;
+}
+
+.green {
+  color: green;
+  font-weight: 600;
+}
+
+.red {
+  color: red;
+  font-weight: 600;
+}
+
+.delete_popover_container {
+  padding: 1rem;
+  border: solid 1px #e5e1e1;
+  border-radius: 16px;
+}
+
+.delete_popover_buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  gap: 1rem;
+}
+
+.popover_button {
+  cursor: pointer;
+}

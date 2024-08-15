@@ -1,0 +1,49 @@
+.add_modal_container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  min-width: 420px;
+  padding: 1rem 2rem 2rem;
+}
+
+.add_header_container {
+  width: 100%;
+}
+
+.add_heading {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #e5e1e1;
+}
+
+.form_row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.form_row_label {
+  font-weight: 600;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+.form_row_status {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.add_button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.add_button:hover {
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}

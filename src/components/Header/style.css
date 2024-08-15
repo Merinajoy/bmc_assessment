@@ -1,0 +1,151 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: solid 1px #f1f0f0;
+  background-color: white;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5a5a5a;
+}
+
+.second_header_content {
+  display: flex;
+  gap: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5a5a5a;
+  align-items: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 97vw;
+}
+
+.menu_icon {
+  padding-right: 10px;
+}
+
+.menu_list_container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  font-size: 30px;
+  font-weight: 600;
+  gap: 2rem;
+  width: 80vw;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.black_circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 12px;
+  background-color: #2d2d2d;
+}
+
+.black_circle:hover {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.purple_circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #9b62e0;
+  margin-top: 6px;
+}
+
+.profile_picture {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.header_item {
+  text-decoration: none !important;
+  color: #616161;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header_item:hover {
+  color: black;
+  font-size: 17px;
+}
+
+.header_text {
+  color: #616161;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header_text:hover {
+  color: #2a2a2a;
+  font-size: 17px;
+}
+
+.disabled_link {
+  pointer-events: none;
+}
+
+.search_input {
+  height: 40px;
+  width: 250px;
+  font-size: 14px !important;
+  border-radius: 20px !important;
+}
+
+.sign_up {
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9b62e0;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.sign_up:hover {
+  height: 41px;
+  width: 122px;
+  border-radius: 21px;
+  background-color: #985edf;
+}
+
+/* Medium devices (landscape tablets, 1024px and down) */
+@media only screen and (max-width: 1024px) {
+  .search_container {
+    display: none;
+  }
+  .horizontal_item {
+    display: none;
+  }
+}
+
+/* Large devices (laptops PCs, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .menu_icon {
+    display: none;
+  }
+}

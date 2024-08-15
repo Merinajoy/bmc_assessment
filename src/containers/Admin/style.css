@@ -1,0 +1,98 @@
+.main_container {
+  padding: 8rem 6rem 2rem;
+}
+
+.table_heading_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3c3c3c;
+}
+
+.buttons_container {
+  display: flex;
+  gap: 1rem;
+}
+
+.table_container {
+  padding-top: 2rem;
+}
+
+.button {
+  padding: 0 16px;
+  border-radius: 20px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.button:hover {
+  padding: 0 17px;
+  height: 36px;
+}
+
+.primary {
+  background-color: #9b62e0;
+  color: #ffff;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #985edf;
+  color: #ffff;
+  border: none;
+}
+
+.secondary {
+  background-color: #ffff;
+  color: #848484;
+  border: solid 1px #aaaa;
+}
+
+.secondary:hover {
+  background-color: #eeeeee;
+  color: #6b6b6b;
+  border: solid 1px #aaaa;
+}
+
+.stat_icon {
+  padding-right: 6px;
+  color: #9e9e9e;
+}
+
+.stats_btn {
+  display: flex;
+  align-items: center;
+}
+
+.load_more_btn {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: #ebe8e8;
+  text-align: center;
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  gap: 4px;
+}
+
+.load_more_btn:hover {
+  background-color: #cbcaca;
+}
+
+.load_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.arrow_icon {
+  color: #262525;
+  font-size: 20px !important;
+}
